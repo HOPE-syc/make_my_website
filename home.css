@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1020;
+}
+
+.custom-slide {
+  width: 700px;
+  height: 400px;
+}
+
+.w-100 {
+  height: 100%;
+  object-fit: cover;
+}
+
+#discussion {
+  height: 400px;
+  width: 390px;
+  top: -400px;
+  left: 712px;
+}
+
+#review {
+  top: -127px;
+  left: 381px;
+  width: 390px;
+  height: 400px;
+}
+
+#notice {
+  width: 1900px;
+  height: 400px;
+  right: 726px;
+  top: -112px;
+}
