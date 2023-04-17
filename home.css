@@ -10,11 +10,15 @@
 }
 
 .custom-slide__2 {
-  width: 386px;
-  height: 188px;
-  top: 302px;
-  left: 1507px;
+  top: 305px;
+  left: 1506px;
   position: absolute;
+}
+
+.lmg-custom {
+  width: 388px;
+  height: 184px;
+  border-radius: 5px;
 }
 
 .custom-slide__2__child {
