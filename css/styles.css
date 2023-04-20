@@ -1,0 +1,14 @@
+/* componenet */
+@import "variable.css";
+
+/* screen */
+@import "screens/index.css";
+@import "screens/book-review.css";
+
+.index-main-page {
+  height: 0vh;
+}
+
+body {
+  height: 150vh;
+}
