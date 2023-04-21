@@ -4,6 +4,7 @@
 /* screen */
 @import "screens/index.css";
 @import "screens/book-review.css";
+@import "screens/Sign-up.css";
 
 .index-main-page {
   height: 0vh;

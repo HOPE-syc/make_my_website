@@ -1,0 +1,18 @@
+.bookstory-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookstory-main-title {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.bookstory-main header {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0;
+}
