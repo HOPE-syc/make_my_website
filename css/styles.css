@@ -1,5 +1,5 @@
 /* componenet */
-@import "variable.css";
+@import "components/variable.css";
 
 /* screen */
 @import "screens/index.css";

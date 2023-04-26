@@ -21,7 +21,15 @@
   overflow: auto;
   width: 500px;
   height: 150px;
+  display: flex;
 }
 
-header div {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 40px;
 }
