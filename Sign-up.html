@@ -18,9 +18,11 @@
   </head>
 
   <body>
-    <div class="bookstory-main">
-      <h1 class="bookstory-main-title">Bookstory</h1>
-    </div>
+    <a class="main-link" href="index.html">
+      <div class="bookstory-main">
+        <h1 class="bookstory-main-title">Bookstory</h1>
+      </div>
+    </a>
 
     <div class="wrapper">
       <div class="title">
@@ -53,6 +55,24 @@
           placeholder="비밀번호를 다시 입력해 주세요."
         />
         <div id="passwordCheckError" class="error"></div>
+      </div>
+
+      <div class="area">
+        <select id="area">
+          <option selected disabled>지역을 선택하세요.</option>
+          <option>서울</option>
+          <option>경기</option>
+          <option>인천</option>
+          <option>부산</option>
+          <option>제주도</option>
+        </select>
+        <div id="areaError" class="error"></div>
+      </div>
+
+      <div class="gender">
+        <input id="gender_man" type="radio" name="gender" />남성
+        <input id="gender_woman" type="radio" name="gender" />여성
+        <div id="genderError" class="error"></div>
       </div>
 
       <div class="phone">
@@ -95,27 +115,6 @@
         </button>
       </div>
 
-      <div class="area">
-        <select id="area">
-          <option selected disabled>지역을 선택하세요.</option>
-          <option>서울</option>
-          <option>경기</option>
-          <option>인천</option>
-          <option>부산</option>
-          <option>제주도</option>
-        </select>
-        <div id="areaError" class="error"></div>
-      </div>
-
-      <div class="gender">
-        <input id="gender_man" type="radio" name="gender" />남성
-        <input id="gender_woman" type="radio" name="gender" />여성
-        <div id="genderError" class="error"></div>
-      </div>
-
-      <div class="line">
-        <hr />
-      </div>
       <div class="signUp">
         <button id="signUpButton" disabled onclick="signUpCheck()">
           가입하기
