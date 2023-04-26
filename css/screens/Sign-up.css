@@ -14,5 +14,14 @@
 .bookstory-main header {
   font-size: 15px;
   font-weight: 400;
-  margin: 10px 0;
+  margin: 10px;
+}
+
+.sign-up__agree {
+  overflow: auto;
+  width: 500px;
+  height: 150px;
+}
+
+header div {
 }

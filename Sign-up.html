@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,28 +9,111 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-    <title>북리뷰</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+    ></script>
+    <script defer scr="js/signUp.js"></script>
+    <title>회원가입</title>
   </head>
 
   <body>
     <div class="bookstory-main">
       <h1 class="bookstory-main-title">Bookstory</h1>
+    </div>
 
-      <header>
-        이용약관 동의
-        <div style="overflow: auto; width: 500px; height: 150px">a</div>
-      </header>
+    <div class="sign-up__title">
+      <h1 style="font-size: 21px">회원가입</h1>
+    </div>
 
-      <header>
-        이용약관 동의
-        <div style="overflow: auto; width: 500px; height: 150px">a</div>
-      </header>
+    <div class="email__main">
+      <input id="email" type="text" placeholder="이메일을 입력해주세요" />
+      <div id="emailError" class="error"></div>
+    </div>
 
-      <header>
-        이용약관 동의
-        <div style="overflow: auto; width: 500px; height: 150px">a</div>
-      </header>
+    <div class="name__main">
+      <input id="name" type="text" placeholder="이름을 입력해주세요" />
+      <div id="nameError" class="error"></div>
+    </div>
+
+    <div class="Password__main">
+      <input id="password" type="text" placeholder="비밀번호를 입력해주세요" />
+      <div id="passwordError" class="error"></div>
+    </div>
+
+    <div class="passwordCheck__main">
+      <input
+        id="passwordCheck"
+        type="password"
+        placeholder="비밀번호를 다시 입력해주세요"
+      />
+      <div id="passwordCheckError" class="error"></div>
+    </div>
+
+    <div class="phone-check">
+      <input
+        id="phone_frist"
+        type="text"
+        size="1"
+        maxlength="3"
+        oninput="changePhone()"
+      />
+      <input
+        id="phone_second"
+        type="text"
+        size="3"
+        maxlength="4"
+        oninput="changePhone()"
+      />
+      <input
+        id="phone_thrid"
+        type="text"
+        size="3"
+        maxlength="4"
+        oninput="changePhone()"
+      />
+    </div>
+
+    <div class="auth__main">
+      <div id="certificationNumber">000000</div>
+      <button disabled id="sendMessage" onclick="getToken()">
+        인증번호 전송
+      </button>
+    </div>
+
+    <div class="timer">
+      <div id="timeLimit">03:00</div>
+      <button disabled id="completion" onclick="checkCompletion()">
+        인증확인
+      </button>
+    </div>
+
+    <div class="area__main">
+      <select id="area">
+        <option selected disabled>지역을 선택하세요.</option>
+        <option value="서울">서울</option>
+        <option value="인천">인천</option>
+        <option value="경기">경기</option>
+        <option value="부산">부산</option>
+        <option value="제주도">제주도</option>
+      </select>
+      <div id="areaError" class="error"></div>
+    </div>
+
+    <div class="gender__main">
+      <input id="gender__man" type="radio" name="gender" />남성
+      <input id="gender__woman" type="radio" name="gender" />여성
+      <div id="genderError" class="error"></div>
+    </div>
+
+    <div class="line">
+      <hr />
+    </div>
+
+    <div class="signUp">
+      <button id="signUpButton" disabled onclick="signUpCheck()">
+        가입하기
+      </button>
     </div>
   </body>
 </html>
