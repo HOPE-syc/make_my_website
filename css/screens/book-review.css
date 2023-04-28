@@ -60,3 +60,25 @@
 .book-review-search-main button {
   border: 1px solid rgba(0, 0, 0, 1);
 }
+
+.book-post-board-main {
+  display: block;
+}
+
+.book-review-board_list_wrap {
+  width: auto;
+  height: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.book-review-board_list {
+  width: auto;
+  height: 550px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
