@@ -66,7 +66,7 @@
 }
 
 .book-review-board_list_wrap {
-  width: auto;
+  width: 100%;
   height: 550px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 5px;
@@ -76,9 +76,82 @@
 .book-review-board_list {
   width: auto;
   height: 550px;
+  margin: 10px;
+  border-top: 2px solid black;
 }
 
-.top {
-  display: flex;
-  justify-content: space-between;
+.book-review-top {
+  margin-top: 8px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.book-review-object {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
+}
+
+.book-review-num {
+  display: inline-block;
+  width: 10%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.book-review-title_name {
+  display: inline-block;
+  width: 60%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.book-review-title_name a {
+  text-decoration: none;
+  color: black;
+}
+
+.book-review-writer {
+  display: inline-block;
+  width: 10%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.book-review-date {
+  display: inline-block;
+  width: 10%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.book-review-count {
+  display: inline-block;
+  width: 5%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.board_page {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.board_page a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+
+.bt_wrap {
+  text-align: end;
+}
+
+.bt_wrap a {
+  text-decoration: none;
+  color: black;
 }
