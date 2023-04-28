@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-    <title>생각창고</title>
+    <title>북리뷰</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -76,41 +76,70 @@
         </div>
       </div>
     </nav>
-    <hr />
-    <div class="book-review-board-write-main">
-      <h1 class="book-review-title-write-name">생각 창고</h1>
-      <h5 class="book-review-write-explanation">본인의 생각을 자유롭게 펼치세요</h5>
 
-      <div class="book-board_write">
-        <div class="book-write-title">
-            <dl>
-                <dt>제목</dt>
-                <dd><input type="text" placeholder="제목 입력"></dd>
-            </dl>
+    <div class="book-review-bar">
+      <a href="book-review.html">
+        <div class="book-review-bar__icon">
+          <span>review</span>
         </div>
-        <div class="book-write-info">
-            <dl>
-                <dt>글쓴이</dt>
-                <dd><input type="text" placeholder="글쓴이 입력"></dd>
-            </dl>
-            <dl>
-                <dt>등록장소</dt>
-                <dd> <select>
-                    <option selected>제목</option>
-                    <option value="1">북리뷰</option>
-                    <option value="2">토론방</option>
-                  </select></dd>
-            </dl>
+      </a>
+
+      <a href="book-recommend.html">
+        <div class="book-review-bar__icon">
+          <span>recommend</span>
         </div>
-        <div class="book-write-cont">
-            <textarea placeholder="내용 입력"></textarea>
+      </a>
+
+      <a href="book-other.html">
+        <div class="book-review-bar__icon">
+          <span>other</span>
         </div>
+      </a>
     </div>
-    <div class="write-bt_wrap">
-        <a href="book-board-view.html" class="on">등록</a>
-        <a href="list.html">취소</a>
-    </div>
-</div>
+
+    <div class="book-review-board-main">
+      <div class="book-review-view">
+        <h1 class="book-review-view-name">우리들의 이야기</h1>
+        <h5 class="book-review-view-explanation">책을 리뷰하는 공간입니다.</h5>
+      </div>
+
+      <div class="board_view_wrap">
+        <div class="board_view">
+          <div class="board-view-title">글 제목이 들어갑니다.</div>
+          <div class="board-view-info">
+            <dl>
+              <dt>번호</dt>
+              <dd>1</dd>
+            </dl>
+            <dl>
+              <dt>글쓴이</dt>
+              <dd>김이름</dd>
+            </dl>
+            <dl>
+              <dt>작성일</dt>
+              <dd>2021.1.16</dd>
+            </dl>
+            <dl>
+              <dt>조회</dt>
+              <dd>33</dd>
+            </dl>
+          </div>
+          <div class="board-view-cont">
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다<br />
+            글 내용이 들어갑니다
+          </div>
+        </div>
+        <div class="board-view-bt_wrap">
+          <a href="book-review.html">목록</a>
+          <a href="edit.html">수정</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

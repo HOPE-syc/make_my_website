@@ -6,6 +6,7 @@
 @import "screens/book-review.css";
 @import "screens/Sign-up.css";
 @import "screens/book-board-write.css";
+@import "screens/book-board-view.css";
 
 .index-main-page {
   height: 0vh;

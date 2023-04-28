@@ -70,3 +70,26 @@
   height: 350px;
   overflow-y: scroll;
 }
+
+.write-bt_wrap {
+  text-align: center;
+}
+
+.write-bt_wrap a {
+  width: 100px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 10px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.write-bt_wrap a:last-child {
+  color: black;
+}
+
+.on {
+  color: white;
+  background-color: black;
+}

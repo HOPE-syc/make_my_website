@@ -1,0 +1,72 @@
+.book-review-view {
+  margin: 15px;
+}
+
+.book-review-view-name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.book-review-view-explanation {
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+  padding-bottom: 25px;
+}
+
+.board_view_wrap {
+  margin: 15px;
+}
+
+.board-view-title {
+  font-size: 30px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+  padding-bottom: 15px;
+}
+
+.board-view-info {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  margin-top: 10px;
+}
+
+.board-view-info dl {
+  font-size: 15px;
+  margin: 0 50px;
+}
+
+.board-view-info dt {
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+.board-view-info dd {
+  display: inline-flex;
+}
+
+.board-view-cont {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 100%;
+}
+
+.board-view-bt_wrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.board-view-bt_wrap a {
+  width: 100px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 10px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.board-view-bt_wrap a:first-child {
+  background-color: black;
+  color: white;
+}
+.board-view-bt_wrap a:last-child {
+  color: black;
+}
